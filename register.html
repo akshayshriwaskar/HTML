@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+
+<form method="GET">
+First name:
+<input type="text" name="Firstname"><br>	
+Last name:
+<input type="text" name="lastname"><br>
+Birthday:
+<input type="date" value="number" name="DOB"> <br>
+Gender:<br>
+<input type="radio" name="gender" value="Male">Male<br>
+<input type="radio" name="gender" value="Female">Female<br>
+<input type="radio" name="gender"value="Other">Other<br>
+Student Type:<br>
+<input type="checkbox">Regular student<br>
+<input type="checkbox">External student<br>
+<select name="student type"> <!--multiple-->
+	<option value="Bright student">Bright</option>
+	<option value="Average student">Average</option>
+	<option value="quiet student">quiet</option>
+
+</select>
+
+Email id:
+<input type="Email" name="Email" required><br>
+Password:
+<input type="Password" name="Password" minlength="8">
+<input type="submit" name="Register">
+<input type="reset" name="reset">
+<!--query string-- 
+file:///E:/HTML/udemy/register.html?
+Firstname(Property)=akshay&(value)
+lastname=shriwaskar&
+DOB=2021-10-15&
+gender=Male&
+student+type=Bright+student&
+Email=akshayshriwaskar%40demo.com&
+Password=12345678&
+Register=Submit
+-->
+</form>
+
+</body>
+</html>
