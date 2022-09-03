@@ -1,14 +1,57 @@
-<!DOCTYPE html>
+frames.html
+
 <html>
-    <head>
-        <title>First AngularJS Application</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js></script>
-    </head>
-    <body ng-app>
-        <h1>First AngularJS Program</h1>
-        <h1>Enter two Numbers to Multiply:</h1>
-        <input type="text" ng-model="Num1"/> X <input type="text" ng-model="Num2"/>=<span>{{Num1*Num2}}</span>
-    </body>
+
+<frameset rows="40%,*">
+
+<frame src="header.html" name="frame1">
+
+<frameset cols="40%,*"> <frame src="links.html" name="frame2">
+
+<frame src="Pune.html" name="frame3">
+
+</frameset>
+
+</frameset> </html>
+
+header.html
+
+<html>
+
+<body><h1 align="center"><font color="blue"><u><b>IT Industries in India</b></u></FONT> </H1></BODY>
+
+</HTML>
+
+links.html
+
+<html> <head><title> Frame Example
+
+</title> </head>
+
+<body><b>City</b><br> <ol type="1">
+
+<li><a href="Pune.html"
+
+target="frame3">Pune</A></li><br> <li><a href="b.html"
+
+target="frame3">Mumbai</A></li><br> </ol>
+
+</body>
+
 </html>
 
+Pune.html
 
+<html> <body><h3>Pune</h3> <ul type="disc"><li>Infosys</li>
+
+<li>Persistent</li></ul>
+
+</body> </html>
+
+b.html
+
+<html> <body><h3>Mumbai</h3>
+
+<ul type="disc"><li> ---</li><li>---</li><li>---- </li><li>----</li></ul>
+
+</body> </html>
